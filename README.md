@@ -1,4 +1,4 @@
-# Hava Durumu (Vue 3 + Vite) 🌤️
+# Hava Durumu 
 
 Bu proje, Vue 3 ve Vite kullanılarak geliştirilmiş modern ve hızlı bir hava durumu uygulamasıdır. Kullanıcıların istedikleri şehrin veya ilçenin güncel hava durumu verilerini (sıcaklık, hissedilen sıcaklık, nem oranı ve hava durumu) anlık olarak görüntülemelerini sağlar.
 
@@ -20,7 +20,6 @@ git clone https://github.com/samicankaya/HavaDurumuVue.js.git
 ```bash
 cd HavaDurumuVue.js
 ```
-*(Eğer projeyi sıfırdan oluşturduğunuz bir klasörde çalıştırıyorsanız direkt o klasörde terminal açabilirsiniz.)*
 
 ### 3. Bağımlılıkları Yükleyin
 ```bash
@@ -35,10 +34,3 @@ npm run dev
 Bu komutu çalıştırdıktan sonra terminalde size bir yerel sunucu adresi (genellikle `http://localhost:5173`) verilecektir. Bu bağlantıyı tarayıcınızda açarak uygulamayı kullanmaya başlayabilirsiniz.
 
 ---
-
-### Üretime (Production) Hazırlama (Opsiyonel)
-Eğer projeyi canlıya almak (deploy etmek) isterseniz aşağıdaki komut ile optimize edilmiş dosyaları oluşturabilirsiniz:
-```bash
-npm run build
-```
-Bu işlem sonucunda `dist` adında bir klasör oluşur ve bu klasörü herhangi bir sunucuda yayınlayabilirsiniz.
